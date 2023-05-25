@@ -4,9 +4,9 @@ const { MongoClient } = require('mongodb');
 const app = express();
 const port = 3003;
 
-const url = "mongodb+srv://rafaelsilva707:bkFBrM5UW8j1X6Hv@cluster0.zxnap1i.mongodb.net/?retryWrites=true&w=majority";
-const dbName = "sample_training";
-const collectionName = "posts";
+const url = "mongodb+srv://rafaelsilva707:c1tS4IJi15Eu6NPj@cluster0.zxnap1i.mongodb.net/?retryWrites=true&w=majority";
+const dbName = "teste";
+const collectionName = "alunos";
 
 app.get('/alunos', async (req, res) => {
   try {
